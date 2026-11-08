@@ -1,0 +1,20 @@
+{
+  "id": "re-3arabi",
+  "name": "re-3arabi (Nuvio)",
+  "version": "1.0.0",
+  "description": "Ported from the re-3arabi CloudStream plugins. Work in progress.",
+  "author": "Abodabodd",
+  "scrapers": [
+    {
+      "id": "aflaam",
+      "name": "Aflaam",
+      "description": "Arabic movies and series",
+      "version": "1.0.0",
+      "author": "Abodabodd",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/aflaam.js",
+      "enabled": true,
+      "contentLanguage": ["ar"]
+    }
+  ]
+}
